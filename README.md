@@ -14,7 +14,9 @@ Al finalizar esta workshop serás capaz de:
 
 ## Contenidos de la workshop
 
-La documentación completa de la workshop está en [docs/](/docs/) y publicada en el sitio anterior. Este es el índice de contenidos:
+La documentación completa de la workshop está en [docs/](/docs/) y publicada en el sitio anterior. Recomendamos seguir la navegación del sitio web publicado para una mejor experiencia.
+
+La documentación se divide en las siguientes secciones:
 
 - [Introducción](/docs/README.md): Una pequeña introducción a Docling y contenido de la workshop.
 - [Preparación de entorno](/docs/pre-work/README.md): Instrucciones para preparar tu entorno de trabajo y ejecutar los notebooks.
@@ -25,7 +27,7 @@ Los tres notebooks prácticos donde se desarrolla la parte práctica de la works
 - [`Lab 2 – Chunking y vectorización`](/docs/lab-2/README.md) [![Chunking y vectorización con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/703a299b236366e05f79f5df19b414ed03721de7/notebooks/Lab2_Hybrid_Chunking.ipynb)
 - [`Lab 3 – RAG multimodal`](/docs/lab-3/README.md) [![RAG multimodal con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/703a299b236366e05f79f5df19b414ed03721de7/notebooks/Lab3_RAG.ipynb)
 
-Recomendamos seguir la navegación del sitio web publicado para una mejor experiencia.
+Puedes abrirlos en local (ver sección de preparación) o ejecutarlos en Google Colab pulsando en los botones correspondientes.
 
 ## Requisitos previos
 
@@ -34,16 +36,6 @@ Recomendamos seguir la navegación del sitio web publicado para una mejor experi
 - Para ejecutar notebooks en local: Jupyter Notebook o JupyterLab
 
 Consulta detalles y pasos en: [docs/pre-work/README.md](/docs/pre-work/README.md) (Preparación).
-
-## Notebooks
-
-Los notebooks de la workshop se encuentran en `notebooks/`:
-- [`Lab1_Docling_convert.ipynb`](/notebooks/Lab1_Docling_convert.ipynb)
-- [`Lab2_Hybrid_Chunking.ipynb`](/notebooks/Lab2_Hybrid_Chunking.ipynb)
-- [`Lab3_RAG.ipynb`](/notebooks/Lab3_RAG.ipynb) (con Replicate)
-- [`LabX_Agents.ipynb`](/notebooks/LabX_Agents.ipynb) (material adicional)
-
-Puedes abrirlos en local (ver sección de preparación) o ejecutarlos en Google Colab. En la documentación de cada lab encontrarás los badges/enlaces directos a GitHub y Colab.
 
 ## Preparación rápida
 
