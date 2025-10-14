@@ -19,7 +19,7 @@ Este laboratorio es un [notebook de Jupyter](https://jupyter.org/). Sigue las in
 [![Conversión de documentos con Docling - Notebook](https://badgen.net/badge/icon/github?icon=github&label=Ver%20en "Ver en GitHub")]({{ config.repo_url }}/blob/{{ git.commit }}/notebooks/Lab1_Docling_convert.ipynb){:target="_blank"}
 [![Conversión de documentos con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")]({{ extra.colab_url }}/blob/{{ git.commit }}/notebooks/Lab1_Docling_convert.ipynb){:target="_blank"}
 
-[![Conversión de documentos con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/703a299b236366e05f79f5df19b414ed03721de7/notebooks/Lab2_Hybrid_Chunking.ipynb){:target="_blank"}
+
 
 Para ejecutar el notebook desde la línea de comandos en Jupyter usando el entorno virtual activo del [trabajo previo](../pre-work/README.md#instalar-jupyter), ejecuta:
 

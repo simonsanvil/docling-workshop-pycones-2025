@@ -18,8 +18,8 @@ Este laboratorio es un [notebook de Jupyter](https://jupyter.org/). Sigue las in
 
 <!-- Con Replicate -->
 
-[![# RAG multimodal con Docling - Replicate](https://badgen.net/badge/icon/github?icon=github&label=Ver%20en "Ver en GitHub")]({{ config.repo_url }}/blob/{{ git.commit }}/notebooks/RAG.ipynb){:target="_blank"}
-[![# RAG multimodal con Docling - Replicate](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")]({{ extra.colab_url }}/blob/{{ git.commit }}/notebooks/RAG.ipynb){:target="_blank"}
+[![# RAG multimodal con Docling - Replicate](https://badgen.net/badge/icon/github?icon=github&label=Ver%20en "Ver en GitHub")]({{ config.repo_url }}/blob/{{ git.commit }}/notebooks/Lab3_RAG.ipynb){:target="_blank"}
+[![# RAG multimodal con Docling - Replicate](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")]({{ extra.colab_url }}/blob/{{ git.commit }}/notebooks/Lab3_RAG.ipynb){:target="_blank"}
 
 <!-- Con LM Studio
 
