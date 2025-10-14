@@ -32,7 +32,7 @@ Puedes abrirlos en local (ver sección de preparación) o ejecutarlos en Google 
 ## Requisitos previos
 
 - Git y Python 3.10, 3.11 o 3.12
-- (Opcional, para algunas opciones del Lab 3) Cuenta en Replicate y token de API
+- Cuenta en [Replicate](https://replicate.com/) para usar modelos de IA en la nube.
 - Para ejecutar notebooks en local: Jupyter Notebook o JupyterLab
 
 Consulta detalles y pasos en: [docs/pre-work/README.md](/docs/pre-work/README.md) (Preparación).
