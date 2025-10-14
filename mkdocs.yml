@@ -1,0 +1,111 @@
+# Project information
+site_name: PyConES 2025 | Docling Workshop
+site_url: https://ibm-granite-community.github.io/docling-workshop
+site_author: IBM
+
+# Repository
+repo_name: docling-workshop-PyConES
+repo_url: https://github.com/simonsanvil/docling-workshop-pycones-2025
+edit_uri: edit/main/docs
+
+# Navigation
+nav:
+  - Introducción:
+    - Sobre la Workshop: README.md
+  - Workshop:
+     - Lab 0. Preparación: pre-work/README.md
+     - Lab 1. Conversión de Documentos con Docling: lab-1/README.md
+     - Lab 2. Chunking y Vectorización con Docling: lab-2/README.md
+     - Lab 3. RAG Multimodal con Docling: lab-3/README.md
+  - Referencia:
+     - Documentación de Docling: https://docling-project.github.io/docling/
+
+
+## DO NOT CHANGE BELOW THIS LINE
+
+# Copyright
+copyright: Copyright &copy; 2025- IBM
+
+# Theme
+theme:
+  name: material
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  icon:
+    logo: material/library
+  logo: images/DoclingDuck.png
+  favicon: images/DoclingDuck.png
+  features:
+    - navigation.tabs
+    - navigation.footer
+    #- navigation.instant
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: deep blue
+    accent: blue
+
+extra_css:
+  - "data:text/css,.md-header__button.md-logo img,.md-header__button.md-logo svg{height:2.5rem;width:auto;}.md-header__title{font-size:1.2rem;font-weight:500;}"
+  - css/custom.css
+
+# Plugins
+plugins:
+  - search
+  - social
+  - macros:
+      on_undefined: strict
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ibm
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ibmdeveloper
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/ibm/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/developerworks
+    - icon: fontawesome/brands/dev
+      link: https://dev.to/ibmdeveloper
+  colab_url: https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

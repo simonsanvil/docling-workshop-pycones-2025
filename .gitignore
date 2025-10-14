@@ -170,6 +170,11 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+# macOS
+.DS_Store
+
 # Mypy cache
 .mypy_cache/
 temp/
+output/
+tests/
