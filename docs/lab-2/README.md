@@ -27,4 +27,4 @@ Para ejecutar el notebook desde la línea de comandos en Jupyter usando el entor
 jupyter notebook notebooks/Chunking.ipynb
 ```
 
-La ruta del archivo del notebook anterior es relativa a la carpeta `docling-workshop` del clonado de git en el [trabajo previo](../pre-work/README.md#clonar-el-repositorio-del-la-workshop-de-docling).
+La ruta del archivo del notebook anterior es relativa a la carpeta `docling-workshop` del clonado de git en el [trabajo previo](../pre-work/README.md#clonar-el-repositorio-de-la-workshop-de-docling).

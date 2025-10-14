@@ -14,8 +14,6 @@ En este laboratorio combinaremos las habilidades aprendidas en los dos laborator
 
 Este laboratorio es un [notebook de Jupyter](https://jupyter.org/). Sigue las instrucciones del [trabajo previo](../pre-work/README.md) para ejecutarlo.
 
-Este laboratorio tiene dos opciones de ejecución. La primera utiliza Replicate y la segunda usa LM Studio para ejecutarlo completamente en local.
-
 ## Lab
 
 <!-- Con Replicate -->
@@ -34,4 +32,4 @@ Para ejecutar el notebook desde la línea de comandos en Jupyter usando el entor
 jupyter notebook notebooks/RAG.ipynb
 ```
 
-La ruta del archivo del notebook anterior es relativa a la carpeta `docling-workshop` del clonado de git en el [trabajo previo](../pre-work/README.md#clonar-el-repositorio-del-la-workshop-de-docling).
+La ruta del archivo del notebook anterior es relativa a la carpeta `docling-workshop` del clonado de git en el [trabajo previo](../pre-work/README.md#clonar-el-repositorio-de-la-workshop-de-docling).

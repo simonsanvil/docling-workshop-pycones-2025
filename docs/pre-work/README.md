@@ -13,7 +13,7 @@ Los laboratorios de la workshop son [notebooks de Jupyter](https://jupyter.org/)
 
 <!-- Los notebooks pueden ejecutarse: -->
 
-- [Localmente en tu equipo](#ejecucion-de-los-notebooks-de-docling-localmente) (para el cual necesitarás instalar algunas dependencias) O
+- [Localmente en tu equipo](#ejecucion-de-notebooks-localmente) (para el cual necesitarás instalar algunas dependencias) O
 - [De forma remota en Google Colab](#ejecucion-de-notebooks-de-forma-remota-colab)
 
 Sigue las instrucciones en una de las siguientes secciones según cómo prefieras ejecutarlos.
@@ -26,7 +26,7 @@ Si quieres ejecutar los notebooks de los laboratorios localmente en tu ordenador
 - Conocimientos de [Git](https://git-scm.com/) y [Python](https://www.python.org/): Lo suficiente para instalar dependencias y ejecutar Jupyter Notebooks
 - (Opcional) Un IDE como [VS Code](https://code.visualstudio.com/) o [PyCharm](https://www.jetbrains.com/pycharm/) para editar y ejecutar los notebooks comodamente.
 
-Si alguna de estas no es el caso, te recomendamos ir a la sección [Ejecución de notebooks de forma remota (Colab)](#ejecucion-de-notebooks-de-docling-de-forma-remota-colab).
+Si alguna de estas no es el caso, te recomendamos ir a la sección [Ejecución de notebooks de forma remota (Colab)](#ejecucion-de-notebooks-de-forma-remota-colab).
 
 Para ejecutar los notebooks de los laboratorios localmente en tu equipo, sigue estos pasos:
 
@@ -105,7 +105,7 @@ En el laboratorio 3 utilizaras modelos de IA generativa [Granite](https://www.ib
 Para ejecutar los notebooks de los laboratorios de forma remota usando [Google Colab](https://colab.research.google.com), sigue estos pasos:
 
 - [Prerrequisitos de Colab](#prerrequisitos-de-colab)
-- [Servir los modelos Granite de IA para Colab](#servir-los-modelos-granite-de-ia-para-colab)
+- [Servir los modelos de Granite con Replicate](#servir-los-modelos-de-granite-con-replicate)
 
 !!! note "Velocidad de ejecución de notebooks en Colab" 
     En Colab, el runtime por defecto usa **CPUs**. Considera cambiar el tipo de entorno en Colab para aumentar la velocidad de ejecución, especialmente si tienes otras limitaciones como una conexión lenta. En la barra de navegación, selecciona `Runtime->Change runtime type` y elige aceleración por **GPU o TPU**.
