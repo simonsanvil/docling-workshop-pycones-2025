@@ -2,7 +2,7 @@
 
 Repositorio de la workshop de Docling presentado en la [PyConES 2025](https://2025.es.pycon.org/). Aquí encontrarás el material de la workshop, la documentación y los notebooks prácticos usados durante la sesión.
 
-- Sitio de la documentación: https://ibm-granite-community.github.io/docling-workshop
+- Sitio de la documentación: https://simonsanvil.github.io/docling-workshop-pycones-2025/
 - Proyecto Docling: https://docling-project.github.io/docling/
 
 ## ¿Qué vas a aprender?
@@ -14,13 +14,16 @@ Al finalizar esta workshop serás capaz de:
 
 ## Contenidos de la workshop
 
-La documentación completa de la workshop está en [docs/](/docs/) y publicada en el sitio anterior. Puntos de entrada rápidos:
+La documentación completa de la workshop está en [docs/](/docs/) y publicada en el sitio anterior. Este es el índice de contenidos:
 
-- Introducción: [`docs/README.md`](/docs/README.md)
-- Preparación (Lab 0): [`docs/pre-work/README.md`](/docs/pre-work/README.md)
-- Lab 1 – Conversión de documentos: [`docs/lab-1/README.md`](/docs/lab-1/README.md)
-- Lab 2 – Chunking y vectorización: [`docs/lab-2/README.md`](/docs/lab-2/README.md)
-- Lab 3 – RAG multimodal: [`docs/lab-3/README.md`](/docs/lab-3/README.md)
+- [Introducción](/docs/README.md): Una pequeña introducción a Docling y contenido de la workshop.
+- [Preparación de entorno](/docs/pre-work/README.md): Instrucciones para preparar tu entorno de trabajo y ejecutar los notebooks.
+
+Los tres notebooks prácticos donde se desarrolla la parte práctica de la workshop:
+
+- [`Lab 1 – Conversión de documentos`](/docs/lab-1/README.md) [![Conversión de documentos con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/703a299b236366e05f79f5df19b414ed03721de7/notebooks/Lab1_Docling_convert.ipynb){:target="_blank"}
+- [`Lab 2 – Chunking y vectorización`](/docs/lab-2/README.md) [![Chunking y vectorización con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/703a299b236366e05f79f5df19b414ed03721de7/notebooks/Lab2_Hybrid_Chunking.ipynb){:target="_blank"}
+- [`Lab 3 – RAG multimodal`](/docs/lab-3/README.md) [![RAG multimodal con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/703a299b236366e05f79f5df19b414ed03721de7/notebooks/Lab3_RAG.ipynb){:target="_blank"}
 
 Recomendamos seguir la navegación del sitio web publicado para una mejor experiencia.
 
