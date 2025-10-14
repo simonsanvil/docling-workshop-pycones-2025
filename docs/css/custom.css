@@ -1,0 +1,19 @@
+/* Custom styles for MkDocs Material header background */
+
+/* Apply background image to the top header bar */
+.md-header {
+  /* Relative path from /assets/stylesheets/... to /images/... works locally and on GitHub Pages */
+  background: url('../images/fondo_oscuro_pycones.png') center / cover no-repeat, var(--md-primary-fg-color);
+}
+
+/* Apply same background to navigation tabs bar (when enabled) */
+.md-tabs {
+  /* background: url('../images/fondo_oscuro_pycones.png') center / cover no-repeat, var(--md-primary-fg-color); */
+  background-color: #03004b;
+}
+
+/* Optional: if the image is dark, you may tweak text/icon colors for contrast
+.md-header, .md-header * {
+  color: var(--md-primary-bg-color);
+}
+*/
