@@ -6,9 +6,13 @@ logo: images/DoclingDuck.png
 
 # Conversión de documentos con Docling
 
-El propósito principal de Docling es la conversión de documentos. Docling nos permite convertir documentos en diversos formatos a otros más útiles para aplicaciones de IA, preservando la estructura del documento.
+El propósito principal de Docling es la conversión de documentos. Docling nos permite convertir documentos en diversos formatos a otros más útiles para aplicaciones de IA, preservando la estructura y contenido del documento.
 
 En este laboratorio revisaremos las distintas opciones de conversión que ofrece Docling, así como algunas funcionalidades de enriquecimiento. También exploraremos los documentos convertidos para ver cómo Docling almacena metadatos y preserva la estructura.
+
+
+
+<!-- ![docling-conversion](../images/docling-banner.png) -->
 
 ## Prerrequisitos
 
@@ -24,7 +28,7 @@ Este laboratorio es un [notebook de Jupyter](https://jupyter.org/). Sigue las in
 Para ejecutar el notebook desde la línea de comandos en Jupyter usando el entorno virtual activo del [trabajo previo](../pre-work/README.md#instalar-jupyter), ejecuta:
 
 ```shell
-jupyter notebook notebooks/Conversion.ipynb
+jupyter notebook notebooks/Lab1_Docling_convert.ipynb
 ```
 
-La ruta del archivo del notebook anterior es relativa a la carpeta `docling-workshop` del clonado de git en el [trabajo previo](../pre-work/README.md#clonar-el-repositorio-de-la-workshop-de-docling).
+La ruta del notebook anterior es relativa a la carpeta `docling-workshop` del repositorio de git clonado durante la sección de [preparación](../pre-work/README.md#clonar-el-repositorio-de-la-workshop-de-docling).

@@ -10,7 +10,13 @@ El [chunking](https://www.ibm.com/architectures/papers/rag-cookbook/chunking) es
 
 En este laboratorio exploraremos la importancia del *chunking* y las capacidades que ofrece Docling para crear fragmentos de texto adecuados a la estructura y semántica del documento.
 
-![docling-chunking](../images/chunking.png){: style="transform: scale(0.8); padding: 0px; margin: 0px;" }
+<div style="text-align: left;">
+  <img src="../images/chunking.png" alt="docling-chunking" style="width: 50%; max-width: 600px;"/>
+</div>
+
+<!-- ![docling-chunking](../images/chunking.png){: style="transform: scale(0.8); padding: 0px; margin: 0px;" } -->
+
+Lee más sobre las distintas opciones de chunking en la [documentación de Docling](https://docling-project.github.io/docling/concepts/chunking/).
 
 ## Prerrequisitos
 
@@ -24,7 +30,7 @@ Este laboratorio es un [notebook de Jupyter](https://jupyter.org/). Sigue las in
 Para ejecutar el notebook desde la línea de comandos en Jupyter usando el entorno virtual activo del [trabajo previo](../pre-work/README.md#instalar-jupyter), ejecuta:
 
 ```shell
-jupyter notebook notebooks/Chunking.ipynb
+jupyter notebook notebooks/Lab2_Hybrid_Chunking.ipynb
 ```
 
-La ruta del archivo del notebook anterior es relativa a la carpeta `docling-workshop` del clonado de git en el [trabajo previo](../pre-work/README.md#clonar-el-repositorio-de-la-workshop-de-docling).
+La ruta del notebook anterior es relativa a la carpeta `docling-workshop` del repositorio de git clonado durante la sección de [preparación](../pre-work/README.md#clonar-el-repositorio-de-la-workshop-de-docling).

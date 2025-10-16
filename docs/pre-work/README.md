@@ -44,8 +44,8 @@ Para ejecutar los notebooks de los laboratorios localmente en tu equipo, sigue e
 Clona el repositorio de la workshop y entra en el directorio del repositorio.
 
 ```shell
-git clone https://github.com/IBM/docling-workshop.git
-cd docling-workshop
+git clone https://github.com/simonsanvil/docling-workshop-pycones-2025
+cd docling-workshop-pycones-2025
 ```
 
 
@@ -90,11 +90,11 @@ En el laboratorio 3 utilizaras modelos de IA generativa [Granite](https://www.ib
 
 1. Crea una cuenta en [Replicate](https://replicate.com/). Necesitarás una cuenta de [GitHub](https://github.com/) para hacerlo.
 
-2. Añade saldo a tu cuenta de Replicate (opcional). Para facilitar probar los modelos en Replicate, utiliza [este enlace](https://replicate.com/invites/a8717bfe-2f3d-4a52-88ed-1356231cdf03) para añadir una pequeña cantidad de crédito a tu cuenta cortesía de [la(https://github.com/ibm-granite-community) comunidad de IBM Granite].
+2. **Añade saldo gratis a tu cuenta de Replicate**: Para facilitar probar los modelos en Replicate, [utiliza este enlace](https://replicate.com/invites/a8717bfe-2f3d-4a52-88ed-1356231cdf03) :material-open-in-new: para añadir una pequeña cantidad de crédito a tu cuenta cortesía de la [comunidad de IBM Granite](https://github.com/ibm-granite-community) :material-github:.
 
-3. Crea un [token de API](https://replicate.com/account/api-tokens) de Replicate.
+4. Crea un [token de API](https://replicate.com/account/api-tokens) de Replicate.
 
-4. Establece tu token de API de Replicate como una variable de entorno en la terminal donde vayas a ejecutar el notebook:
+5. Establece tu token de API de Replicate como una variable de entorno en la terminal donde vayas a ejecutar el notebook:
 
     ```shell
     export REPLICATE_API_TOKEN=<your_replicate_api_token>
@@ -120,9 +120,9 @@ En el laboratorio 3 utilizaras modelos de IA generativa [Granite](https://www.ib
 
 #### Instrucciones para configurar Replicate
 
-1. Crea una cuenta en [Replicate](https://replicate.com/). Necesitarás una cuenta de [GitHub](https://github.com/).
+1. Crea una cuenta en [Replicate](https://replicate.com/) (necesitarás una cuenta de [GitHub](https://github.com/)).
 
-2. Añade saldo a tu cuenta de Replicate (opcional). Para facilitar probar los modelos Granite en Replicate, utiliza [este enlace](https://replicate.com/invites/a8717bfe-2f3d-4a52-88ed-1356231cdf03) para añadir una pequeña cantidad de crédito a tu cuenta cortesía de [la comunidad de IBM Granite](https://github.com/ibm-granite-community).
+2. **Añade saldo gratis a tu cuenta de Replicate**: Para facilitar probar los modelos Granite en Replicate, [utiliza este enlace](https://replicate.com/invites/a8717bfe-2f3d-4a52-88ed-1356231cdf03) :material-open-in-new: para añadir una pequeña cantidad de crédito a tu cuenta cortesía de la comunidad de [IBM Granite](https://github.com/ibm-granite-community) :material-github:.
 
 3. Crea un [API token](https://replicate.com/account/api-tokens) de Replicate.
 

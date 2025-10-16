@@ -6,7 +6,7 @@ logo: images/DoclingDuck.png
 
 # RAG multimodal con Docling
 
-[Retrieval Augmented Generation (RAG)](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) es un patrón arquitectónico que puede utilizarse para mejorar el rendimiento de los modelos de lenguaje recuperando información factual de una base de conocimiento y añadiéndola a la consulta del modelo.
+[Retrieval Augmented Generation (RAG)](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) es un patrón de aplicaciones de IA que puede utilizarse para mejorar el rendimiento de los modelos de lenguaje recuperando información factual de una base de conocimiento y añadiéndola a la consulta del modelo.
 
 En este laboratorio combinaremos las habilidades aprendidas en los dos laboratorios anteriores para construir un sistema RAG potenciado con Docling.
 
@@ -29,7 +29,7 @@ Este laboratorio es un [notebook de Jupyter](https://jupyter.org/). Sigue las in
 Para ejecutar el notebook desde la línea de comandos en Jupyter usando el entorno virtual activo del [trabajo previo](../pre-work/README.md#instalar-jupyter), ejecuta:
 
 ```shell
-jupyter notebook notebooks/RAG.ipynb
+jupyter notebook notebooks/Lab3_RAG.ipynb
 ```
 
-La ruta del archivo del notebook anterior es relativa a la carpeta `docling-workshop` del clonado de git en el [trabajo previo](../pre-work/README.md#clonar-el-repositorio-de-la-workshop-de-docling).
+La ruta del notebook anterior es relativa a la carpeta `docling-workshop` del repositorio de git clonado durante la sección de [preparación](../pre-work/README.md#clonar-el-repositorio-de-la-workshop-de-docling).

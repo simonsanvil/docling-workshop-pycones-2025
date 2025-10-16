@@ -49,7 +49,10 @@ Algunas de las tecnologías y herramientas que utilizaremos en esta workshop:
 
 Contacto y perfiles de los ponentes:
 
-* [Simón Sánchez Viloria](https://www.linkedin.com/in/simonsviloria/) :material-linkedin:
-* [Andres Ruiz Calvo](https://www.linkedin.com/in/andresruizcalvo/) :material-linkedin:
+* [Simón Sánchez Viloria*](https://www.linkedin.com/in/simonsviloria/) :material-linkedin:
+* [Andres Ruiz Calvo*](https://www.linkedin.com/in/andresruizcalvo/) :material-linkedin:
 
-<small>Basado en la workshop original de [ibm-granite-community](https://github.com/ibm-granite-community) :material-github: y [Ming Zhao](https://github.com/mingxzhao) :material-github::  <a href="https://github.com/ibm-granite-community/docling-workshop">https://github.com/ibm-granite-community/docling-workshop</a></small> :material-github:
+
+<small>Basado en la workshop original de [ibm-granite-community](https://github.com/ibm-granite-community) :material-github:: <a href="https://github.com/ibm-granite-community/docling-workshop">https://github.com/ibm-granite-community/docling-workshop</a></small> :material-github:
+
+<small>(*) Las opiniones expresadas por estas personas durante la workshop son personales y no representan necesariamente las de IBM.</small>
