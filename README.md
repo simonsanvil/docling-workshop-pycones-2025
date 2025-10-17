@@ -1,6 +1,6 @@
 # PyConES 2025 | Docling Workshop
 
-Repositorio de la workshop de Docling presentado en la [PyConES 2025](https://2025.es.pycon.org/). Aquí encontrarás el material de la workshop, la documentación y los notebooks prácticos usados durante la sesión.
+Repositorio de la workshop de Docling presentado en la [PyConES 2025](https://2025.es.pycon.org/). Aquí encontrarás el material, documentación y  notebooks prácticos usados durante la sesión.
 
 - Sitio de la documentación: https://simonsanvil.github.io/docling-workshop-pycones-2025/
 - Proyecto Docling: https://docling-project.github.io/docling/
@@ -12,7 +12,7 @@ Al finalizar esta workshop serás capaz de:
 - Entender y aplicar técnicas de chunking y vectorización para mejorar tu sistema de recuperación de información.
 - Construir un sistema RAG multimodal transparente y verificable.
 
-## Contenidos de la workshop
+## Contenido
 
 La documentación completa de la workshop está en [docs/](/docs/) y publicada en el sitio anterior. Recomendamos seguir la navegación del sitio web publicado para una mejor experiencia.
 
@@ -23,9 +23,9 @@ La documentación se divide en las siguientes secciones:
 
 Los tres notebooks prácticos donde se desarrolla la parte práctica de la workshop:
 
-- [`Lab 1 – Conversión de documentos`](/docs/lab-1/README.md) [![Conversión de documentos con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/703a299b236366e05f79f5df19b414ed03721de7/notebooks/Lab1_Docling_convert.ipynb)
-- [`Lab 2 – Chunking y vectorización`](/docs/lab-2/README.md) [![Chunking y vectorización con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/703a299b236366e05f79f5df19b414ed03721de7/notebooks/Lab2_Hybrid_Chunking.ipynb)
-- [`Lab 3 – RAG multimodal`](/docs/lab-3/README.md) [![RAG multimodal con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/703a299b236366e05f79f5df19b414ed03721de7/notebooks/Lab3_RAG.ipynb)
+- [`Lab 1 – Conversión de documentos`](/docs/lab-1/README.md) [![Conversión de documentos con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/main/notebooks/Lab1_Docling_convert.ipynb)
+- [`Lab 2 – Chunking y vectorización`](/docs/lab-2/README.md) [![Chunking y vectorización con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/main/notebooks/Lab2_Hybrid_Chunking.ipynb)
+- [`Lab 3 – RAG multimodal`](/docs/lab-3/README.md) [![RAG multimodal con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/main/notebooks/Lab3_RAG.ipynb)
 
 Puedes abrirlos en local (ver sección de preparación) o ejecutarlos en Google Colab haciendo click en los badges correspondientes.
 
