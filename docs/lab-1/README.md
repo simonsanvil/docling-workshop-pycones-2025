@@ -20,8 +20,8 @@ Este laboratorio es un [notebook de Jupyter](https://jupyter.org/). Sigue las in
 
 ## Lab
 
-[![Conversión de documentos con Docling - Notebook](https://badgen.net/badge/icon/github?icon=github&label=Ver%20en "Ver en GitHub")]({{ config.repo_url }}/blob/{{ git.commit }}/notebooks/Lab1_Docling_convert.ipynb){:target="_blank"}
-[![Conversión de documentos con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")]({{ extra.colab_url }}/blob/{{ git.commit }}/notebooks/Lab1_Docling_convert.ipynb){:target="_blank"}
+[![Conversión de documentos con Docling - Notebook](https://badgen.net/badge/icon/github?icon=github&label=Ver%20en "Ver en GitHub")]({{ config.repo_url }}/blob/main/notebooks/Lab1_Docling_convert.ipynb){:target="_blank"}
+[![Conversión de documentos con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")]({{ extra.colab_url }}/blob/main/notebooks/Lab1_Docling_convert.ipynb){:target="_blank"}
 
 
 
