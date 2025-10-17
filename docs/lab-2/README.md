@@ -24,13 +24,13 @@ Este laboratorio es un [notebook de Jupyter](https://jupyter.org/). Sigue las in
 
 ## Lab
 
-[![# Chunking avanzado y vectorización con Docling - Notebook](https://badgen.net/badge/icon/github?icon=github&label=Ver%20en "Ver en GitHub")]({{ config.repo_url }}/blob/{{ git.commit }}/notebooks/Chunking.ipynb){:target="_blank"}
-[![# Chunking avanzado y vectorización con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")]({{ extra.colab_url }}/blob/{{ git.commit }}/notebooks/Chunking.ipynb){:target="_blank"}
+[![# Chunking avanzado y vectorización con Docling - Notebook](https://badgen.net/badge/icon/github?icon=github&label=Ver%20en "Ver en GitHub")]({{ config.repo_url }}/blob/{{ git.commit }}/notebooks/Lab2_Chunking.ipynb){:target="_blank"}
+[![# Chunking avanzado y vectorización con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")]({{ extra.colab_url }}/blob/{{ git.commit }}/notebooks/Lab2_Chunking.ipynb){:target="_blank"}
 
 Para ejecutar el notebook desde la línea de comandos en Jupyter usando el entorno virtual activo del [trabajo previo](../pre-work/README.md#instalar-jupyter), ejecuta:
 
 ```shell
-jupyter notebook notebooks/Lab2_Hybrid_Chunking.ipynb
+jupyter notebook notebooks/Lab2_Chunking.ipynb
 ```
 
 La ruta del notebook anterior es relativa a la carpeta `docling-workshop` del repositorio de git clonado durante la sección de [preparación](../pre-work/README.md#clonar-el-repositorio-de-la-workshop-de-docling).
