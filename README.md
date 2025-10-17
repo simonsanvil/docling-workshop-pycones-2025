@@ -27,7 +27,7 @@ Los tres notebooks prácticos donde se desarrolla la parte práctica de la works
 - [`Lab 2 – Chunking y vectorización`](/docs/lab-2/README.md) [![Chunking y vectorización con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/703a299b236366e05f79f5df19b414ed03721de7/notebooks/Lab2_Hybrid_Chunking.ipynb)
 - [`Lab 3 – RAG multimodal`](/docs/lab-3/README.md) [![RAG multimodal con Docling - Notebook](https://colab.research.google.com/assets/colab-badge.svg "Abrir en Colab")](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/703a299b236366e05f79f5df19b414ed03721de7/notebooks/Lab3_RAG.ipynb)
 
-Puedes abrirlos en local (ver sección de preparación) o ejecutarlos en Google Colab pulsando en los botones correspondientes.
+Puedes abrirlos en local (ver sección de preparación) o ejecutarlos en Google Colab haciendo click en los badges correspondientes.
 
 ## Requisitos previos
 
