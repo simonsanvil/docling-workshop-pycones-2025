@@ -1,9 +1,16 @@
 # PyConES 2025 | Docling Workshop
 
-Repositorio de la workshop de Docling presentado en la [PyConES 2025](https://2025.es.pycon.org/). Aquí encontrarás el material, documentación y  notebooks prácticos usados durante la sesión.
+[![Documentation](https://img.shields.io/badge/docs-mkdocs-blue)](https://simonsanvil.github.io/docling-workshop-pycones-2025/)
+[![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-- Sitio de la documentación: https://simonsanvil.github.io/docling-workshop-pycones-2025/
-- Proyecto Docling: https://docling-project.github.io/docling/
+Repositorio de la workshop de Docling presentado en la [PyConES 2025](https://2025.es.pycon.org/). Aquí encontrarás el material, documentación y notebooks prácticos usados durante la sesión.
+
+## Enlaces rápidos
+
+- 📚 **Documentación**: https://simonsanvil.github.io/docling-workshop-pycones-2025/
+- 🦆 **Proyecto Docling**: https://docling-project.github.io/docling/
+- 🐙 **Repositorio Original**: https://github.com/ibm-granite-community/docling-workshop
 
 ## ¿Qué vas a aprender?
 
@@ -70,23 +77,34 @@ La documentación utiliza [MkDocs Material](https://squidfunk.github.io/mkdocs-m
 
 ## Estructura del repositorio
 
-- `docs/` – Fuente de la documentación (MkDocs)
-  - `images/` – Imágenes usadas en la documentación
-  - `css/custom.css` – Estilos personalizados.
-  - `pre-work/`, `lab-1/`, `lab-2/`, `lab-3/` – Páginas de los labs
-- `notebooks/` – Notebooks de los laboratorios
-<!-- - `materials/` – Material de apoyo (si aplica) -->
-<!-- - `output/` – Artefactos generados (p.ej. conversiones con Docling) -->
-<!-- - `site/` – Salida estática generada por MkDocs (no editar a mano) -->
-- `mkdocs.yml` – Configuración del sitio de documentación
-- `pyproject.toml` / `uv.lock` – Dependencias y bloqueo de versiones
+```
+docling-workshop-pycones-2025/
+├── docs/                    # Documentación fuente (MkDocs)
+│   ├── images/             # Imágenes de la documentación
+│   ├── css/                # Estilos personalizados
+│   ├── pre-work/           # Instrucciones de preparación
+│   ├── lab-1/              # Lab 1: Conversión de documentos
+│   ├── lab-2/              # Lab 2: Chunking y vectorización
+│   └── lab-3/              # Lab 3: RAG multimodal
+├── notebooks/              # Notebooks de los laboratorios
+│   ├── Lab1_Docling_convert.ipynb
+│   ├── Lab2_Chunking.ipynb
+│   └── Lab3_RAG.ipynb
+├── mkdocs.yml              # Configuración del sitio de documentación
+├── pyproject.toml          # Dependencias del proyecto
+└── uv.lock                 # Lockfile de dependencias
+```
 
 ## Contribución y soporte
 
-- ¿Sugerencias, dudas o problemas? Abre un "Issue" en GitHub.
-- Pull Requests bienvenidas para mejoras en documentación, ejemplos o correcciones.
+¿Encontraste un error o tienes una sugerencia? ¡Tu ayuda es bienvenida!
 
-## Créditos
+- 🐛 **Issues**: Abre un [Issue en GitHub](https://github.com/simonsanvil/docling-workshop-pycones-2025/issues) para reportar problemas o sugerir mejoras
+- 🔀 **Pull Requests**: Envía un PR con tus mejoras (revisa [CONTRIBUTING.md](CONTRIBUTING.md) para más detalles)
+- 💬 **Discusiones**: Únete a las [Discussions](https://github.com/simonsanvil/docling-workshop-pycones-2025/discussions) para preguntas generales
 
-- [IBM Granite Community](https://github.com/ibm-granite-community)
-- Autoría de contenidos y contribuciones: ver la sección de Créditos dentro de la documentación.
+## Licencia
+
+Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
+
+Basado en el workshop original de [IBM Granite Community](https://github.com/ibm-granite-community/docling-workshop).

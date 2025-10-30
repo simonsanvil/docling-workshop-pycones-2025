@@ -178,3 +178,19 @@ pyrightconfig.json
 temp/
 output/
 tests/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs - uncomment if needed
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# MkDocs social plugin cache
+.cache/

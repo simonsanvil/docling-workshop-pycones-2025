@@ -127,3 +127,89 @@ En el laboratorio 3 utilizaras modelos de IA generativa [Granite](https://www.ib
 3. Crea un [API token](https://replicate.com/account/api-tokens) de Replicate.
 
 4. Añade tu token de API de Replicate al gestor de secretos de Colab para guardarlo de forma segura. Abre [Google Colab](https://colab.research.google.com) y haz clic en la pestaña `🔑 Secrets` del panel izquierdo. Pulsa "New Secret" e introduce `REPLICATE_API_TOKEN` como clave; pega tu token en el campo de valor. Activa el botón de la izquierda para permitir que el notebook acceda al secreto.
+
+## Resolución de problemas
+
+### Problemas comunes en la instalación local
+
+#### Error: "Python version not supported"
+
+**Solución**: Asegúrate de tener Python 3.10, 3.11 o 3.12 instalado. Verifica tu versión con:
+
+```shell
+python3 --version
+```
+
+Si tienes una versión incompatible, descarga e instala una versión compatible desde [python.org](https://www.python.org/downloads/).
+
+#### Error: "command not found: uv"
+
+**Solución**: Instala `uv` con pip:
+
+```shell
+pip install uv
+# o con pip3
+pip3 install uv
+```
+
+#### Error: "No module named 'jupyter'"
+
+**Solución**: Asegúrate de haber activado el entorno virtual y de haber instalado Jupyter:
+
+```shell
+source venv/bin/activate
+python3 -m pip install --require-virtualenv notebook ipywidgets
+```
+
+#### Problemas de memoria al ejecutar notebooks localmente
+
+**Solución**: Los modelos de visión y transformers pueden consumir mucha memoria. Si experimentas problemas:
+
+1. Cierra otras aplicaciones para liberar RAM
+2. Considera usar Google Colab en su lugar
+3. Si usas Colab, cambia el runtime a GPU: `Runtime > Change runtime type > GPU`
+
+#### Error: "REPLICATE_API_TOKEN not found"
+
+**Solución Local**: Asegúrate de haber exportado la variable de entorno en la terminal donde ejecutas Jupyter:
+
+```shell
+export REPLICATE_API_TOKEN=tu_token_aqui
+jupyter notebook
+```
+
+**Solución Colab**: Verifica que hayas añadido el secreto en Colab y que el interruptor esté activado para permitir que el notebook acceda a él.
+
+### Problemas comunes en Google Colab
+
+#### Los notebooks se ejecutan muy lentamente
+
+**Solución**: Cambia el tipo de runtime a GPU o TPU:
+1. Ve a `Runtime > Change runtime type`
+2. Selecciona `T4 GPU` o `TPU v2`
+3. Haz clic en "Save"
+
+#### Error: "Cuota de uso excedida en Replicate"
+
+**Solución**: 
+1. Verifica tu saldo en [Replicate Dashboard](https://replicate.com/account)
+2. Si usaste el enlace de créditos gratuitos pero se agotaron, considera añadir saldo
+3. Reduce el número de ejecuciones o usa modelos más pequeños
+
+#### No puedo guardar cambios en el notebook en Colab
+
+**Solución**: 
+- Haz una copia del notebook: `File > Save a copy in Drive`
+- Los notebooks abiertos desde GitHub son de solo lectura hasta que hagas una copia
+
+### Obtener más ayuda
+
+Si sigues experimentando problemas:
+
+1. Revisa los [Issues existentes](https://github.com/simonsanvil/docling-workshop-pycones-2025/issues) en GitHub
+2. Abre un [nuevo Issue](https://github.com/simonsanvil/docling-workshop-pycones-2025/issues/new) con:
+   - Descripción del problema
+   - Pasos que seguiste
+   - Mensajes de error completos
+   - Tu sistema operativo y versión de Python
+3. Únete a las [Discusiones](https://github.com/simonsanvil/docling-workshop-pycones-2025/discussions) para preguntas generales
