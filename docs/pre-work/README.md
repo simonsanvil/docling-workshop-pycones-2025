@@ -54,7 +54,7 @@ Si quieres ejecutar los notebooks de los laboratorios localmente en tu ordenador
 
 - Un ordenador o portátil: mínimo 8 GB de RAM (16 GB recomendado)
 - Conocimientos de [Git](https://git-scm.com/) y [Python](https://www.python.org/): Lo suficiente para instalar dependencias y ejecutar Jupyter Notebooks
-- (Opcional) Un IDE como [VS Code](https://code.visualstudio.com/) o [PyCharm](https://www.jetbrains.com/pycharm/) para editar y ejecutar los notebooks comodamente.
+- (Opcional) Un IDE como [VS Code](https://code.visualstudio.com/) o [PyCharm](https://www.jetbrains.com/pycharm/) para editar y ejecutar los notebooks cómodamente.
 
 Si alguna de estas no es el caso, te recomendamos ir a la sección [Ejecución de notebooks de forma remota (Colab)](#ejecucion-de-notebooks-de-forma-remota-colab).
 
@@ -114,7 +114,7 @@ cd docling-workshop-pycones-2025
 
 ### Uso de los modelos de Granite con Replicate
 
-En el laboratorio 3 utilizaras modelos de IA generativa [Granite](https://www.ibm.com/granite) para construir un sistema RAG multimodal. Para ello usaremos [Replicate](https://replicate.com/), una plataforma en la nube que aloja y sirve modelos de IA por ti.
+En el laboratorio 3 utilizarás modelos de IA generativa [Granite](https://www.ibm.com/granite) para construir un sistema RAG multimodal. Para ello usaremos [Replicate](https://replicate.com/), una plataforma en la nube que aloja y sirve modelos de IA por ti.
 
 #### Instrucciones para configurar Replicate
 
@@ -146,7 +146,7 @@ Para ejecutar los notebooks de los laboratorios de forma remota usando [Google C
 
 ### Servir los modelos de Granite con Replicate
 
-En el laboratorio 3 utilizaras modelos de IA generativa [Granite](https://www.ibm.com/granite) para construir un sistema RAG multimodal. Para ello usaremos [Replicate](https://replicate.com/), una plataforma en la nube que aloja y sirve modelos de IA por ti.
+En el laboratorio 3 utilizarás modelos de IA generativa [Granite](https://www.ibm.com/granite) para construir un sistema RAG multimodal. Para ello usaremos [Replicate](https://replicate.com/), una plataforma en la nube que aloja y sirve modelos de IA por ti.
 
 #### Instrucciones para configurar Replicate
 
