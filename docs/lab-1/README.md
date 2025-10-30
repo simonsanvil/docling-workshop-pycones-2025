@@ -4,13 +4,38 @@ description: Conversión de documentos con Docling
 logo: images/DoclingDuck.png
 ---
 
-# Conversión de documentos con Docling
+# Lab 1: Conversión de documentos con Docling
+
+## 🎯 Objetivo
+
+En este laboratorio aprenderás a usar Docling para convertir documentos complejos (PDFs, DOCX, PPTX) a formatos estructurados útiles para aplicaciones de IA.
+
+## 📚 Lo que aprenderás
+
+- Cómo instalar y configurar Docling
+- Convertir diferentes tipos de documentos (PDF, DOCX, PPTX)
+- Exportar a múltiples formatos (Markdown, JSON, HTML)
+- Explorar la estructura de documentos convertidos
+- Extraer y trabajar con metadatos de documentos
+- Enriquecer documentos con OCR y análisis de imágenes
+
+## 🔧 Funcionalidades de Docling que explorarás
 
 El propósito principal de Docling es la conversión de documentos. Docling nos permite convertir documentos en diversos formatos a otros más útiles para aplicaciones de IA, preservando la estructura y contenido del documento.
 
-En este laboratorio revisaremos las distintas opciones de conversión que ofrece Docling, así como algunas funcionalidades de enriquecimiento. También exploraremos los documentos convertidos para ver cómo Docling almacena metadatos y preserva la estructura.
+### Formatos de entrada soportados
+- PDF
+- Microsoft Word (DOCX)
+- Microsoft PowerPoint (PPTX)
+- Imágenes (PNG, JPG)
+- HTML
+- Y más...
 
-
+### Formatos de salida
+- **Markdown**: Ideal para documentación y LLMs
+- **JSON**: Perfecto para procesamiento programático
+- **HTML**: Para visualización web
+- **DoclingDocument**: Objeto Python con estructura completa
 
 <!-- ![docling-conversion](../images/docling-banner.png) -->
 
