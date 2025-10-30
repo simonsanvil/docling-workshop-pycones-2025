@@ -46,22 +46,39 @@ Consulta detalles y pasos en: [docs/pre-work/README.md](/docs/pre-work/README.md
 
 ## Preparación rápida
 
-Si trabajas con `uv` (`pip install uv`), puedes instalar dependencias con:
+### Para ejecutar los notebooks localmente
 
 ```bash
-# instalar solo dependencias de los notebooks (necesario para ejecutar los labs)
+# 1. Clona el repositorio
+git clone https://github.com/simonsanvil/docling-workshop-pycones-2025
+cd docling-workshop-pycones-2025
+
+# 2. Instala uv (si no lo tienes)
+pip install uv
+
+# 3. Instala dependencias
 uv sync --no-dev
+
+# 4. Abre los notebooks con Jupyter
+jupyter notebook notebooks/
 ```
 
-Si además quieres servir la documentación localmente para verla en tu navegador:
+### Para servir la documentación localmente
 
 ```bash
-# Instalar dependencias del proyecto (incluye grupo dev)
+# Instalar dependencias incluyendo las de desarrollo
 uv sync --all-groups
 
-# Servir la documentación localmente
+# Servir la documentación en http://localhost:8000
 uv run mkdocs serve
 ```
+
+### Para usar Google Colab
+
+Simplemente haz clic en los badges 🚀 de Colab en cada lab o ve directamente a:
+- [Lab 1 en Colab](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/main/notebooks/Lab1_Docling_convert.ipynb)
+- [Lab 2 en Colab](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/main/notebooks/Lab2_Chunking.ipynb)
+- [Lab 3 en Colab](https://colab.research.google.com/github/simonsanvil/docling-workshop-pycones-2025/blob/main/notebooks/Lab3_RAG.ipynb)
 
 Para preparación detallada (entornos, Jupyter, variables de entorno para Replicate, etc.), sigue los pasos en [docs/pre-work/README.md](/docs/pre-work/README.md).
 

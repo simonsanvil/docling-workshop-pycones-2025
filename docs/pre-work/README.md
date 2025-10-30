@@ -6,17 +6,47 @@ logo: images/DoclingDuck.png
 
 # Preparación
 
-Los laboratorios de la workshop son [notebooks de Jupyter](https://jupyter.org/). Los notebooks pueden ejecutarse:
- <!-- en tu ordenador o de forma remota en el servicio [Google Colab](https://colab.research.google.com). 
+## 🎯 Objetivo
 
-## Ejecución de notebooks -->
+Preparar tu entorno de trabajo para ejecutar los notebooks del workshop de Docling.
 
-<!-- Los notebooks pueden ejecutarse: -->
+## 📝 Opciones de ejecución
 
-- [Localmente en tu equipo](#ejecucion-de-notebooks-localmente) (para el cual necesitarás instalar algunas dependencias) O
-- [De forma remota en Google Colab](#ejecucion-de-notebooks-de-forma-remota-colab)
+Los laboratorios de la workshop son [notebooks de Jupyter](https://jupyter.org/). Puedes ejecutarlos de dos formas:
 
-Sigue las instrucciones en una de las siguientes secciones según cómo prefieras ejecutarlos.
+=== "🌐 Google Colab (Recomendado para principiantes)"
+
+    **Ventajas:**
+    
+    - ✅ No requiere instalación local
+    - ✅ GPU gratuita disponible
+    - ✅ Funciona en cualquier dispositivo con navegador
+    - ✅ Ideal si tienes RAM limitada
+
+    **Requisitos:**
+    
+    - Una cuenta de Google
+    - Navegador web moderno
+    
+    **[Ver instrucciones de Colab ↓](#ejecucion-de-notebooks-de-forma-remota-colab)**
+
+=== "💻 Ejecución Local (Recomendado si tienes experiencia)"
+
+    **Ventajas:**
+    
+    - ✅ Más rápido (sin depender de internet)
+    - ✅ Mayor control sobre el entorno
+    - ✅ Puedes guardar cambios fácilmente
+    - ✅ Mejor para desarrollo posterior
+
+    **Requisitos:**
+    
+    - 8 GB RAM mínimo (16 GB recomendado)
+    - Python 3.10, 3.11 o 3.12
+    - Git instalado
+    - (Opcional) IDE como VS Code o PyCharm
+    
+    **[Ver instrucciones locales ↓](#ejecucion-de-notebooks-localmente)**
 
 ## Ejecución de notebooks localmente
 
