@@ -4,11 +4,46 @@ description: Chunking y vectorización con Docling
 logo: images/DoclingDuck.png
 ---
 
-# Chunking con Docling
+# Lab 2: Chunking y vectorización con Docling
 
-El [chunking](https://www.ibm.com/architectures/papers/rag-cookbook/chunking) es el proceso de dividir textos largos en fragmentos más pequeños y manejables antes de pasarlos a un modelo. Es un paso importante porque los modelos tienen una longitud máxima de contexto, y el chunking se asegura que la información relevante quepa en ese límite, preservando la coherencia, mejorando la recuperación y evitando la pérdida de contenido importante durante el procesamiento.
+## 🎯 Objetivo
 
-En este laboratorio exploraremos la importancia del *chunking* y las capacidades que ofrece Docling para crear fragmentos de texto adecuados a la estructura y semántica del documento.
+En este laboratorio aprenderás sobre el chunking (fragmentación de documentos) y cómo Docling facilita este proceso crítico para sistemas RAG.
+
+## 📚 Lo que aprenderás
+
+- Qué es el chunking y por qué es importante
+- Diferentes estrategias de chunking (semántico, jerárquico, híbrido)
+- Cómo usar el chunker de Docling
+- Preservar la estructura del documento en los chunks
+- Generar embeddings de los chunks
+- Evaluar la calidad de diferentes estrategias de chunking
+
+## 🧩 ¿Qué es el Chunking?
+
+El [chunking](https://www.ibm.com/architectures/papers/rag-cookbook/chunking) es el proceso de dividir textos largos en fragmentos más pequeños y manejables antes de pasarlos a un modelo. Es un paso importante porque:
+
+- 📏 Los modelos tienen una longitud máxima de contexto
+- 🎯 Mejora la precisión en la recuperación de información
+- 💡 Ayuda a mantener la coherencia semántica
+- ⚡ Optimiza el rendimiento en sistemas RAG
+
+### Estrategias de Chunking en Docling
+
+**Chunking Híbrido (Recomendado)**
+- Combina límites de tamaño con estructura del documento
+- Respeta encabezados, párrafos y secciones
+- Mejor balance entre tamaño y coherencia
+
+**Chunking Jerárquico**
+- Mantiene la jerarquía completa del documento
+- Ideal para documentos con estructura compleja
+- Preserva el contexto entre secciones
+
+**Chunking por Tokens**
+- División por número fijo de tokens
+- Predecible y consistente
+- Útil cuando el tamaño es crítico
 
 <div style="text-align: left;">
   <img src="../images/chunking.png" alt="docling-chunking" style="width: 50%; max-width: 600px;"/>

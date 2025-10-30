@@ -5,17 +5,26 @@ logo: images/DoclingDuck.png
 
 # Introducción
 
+¡Bienvenido/a a nuestra workshop! 👋
 
-¡Bienvenido/a a nuestra workshop!
+En esta workshop recorreremos las funcionalidades de [Docling](https://docling-project.github.io/docling/), una librería de Python de código abierto para la conversión de documentos de varios formatos a otros más útiles para aplicaciones de IA, preservando su contenido y estructura originales.
 
-En esta workshop recorreremos las funcionalidades de [Docling](https://docling-project.github.io/docling/). Una librería de Python de código abierto para la conversión de documentos de varios formatos a otros más útiles para aplicaciones de IA, preservando su contenido y estructura originales.
+## ¿Por qué Docling?
 
+Los documentos del mundo real (PDFs, presentaciones, documentos de Word) contienen información valiosa, pero están diseñados para ser leídos por humanos, no por máquinas. Docling resuelve este problema permitiendo:
+
+- 📄 **Conversión precisa**: Transforma PDFs, DOCX, PPTX y más a formatos estructurados (Markdown, JSON, HTML)
+- 🎯 **Preservación de estructura**: Mantiene tablas, listas, jerarquías y formato visual
+- 🤖 **Optimización para IA**: Prepara documentos para procesamiento con LLMs y sistemas RAG
+- 🚀 **Alto rendimiento**: Procesa documentos grandes de forma eficiente
+
+## Objetivos de aprendizaje
 
 Al finalizar esta workshop, serás capaz de:
 
-* Convertir documentos complejos a distintos formatos adecuados para IA.
-* Comprender los distintos métodos de [Chunking](https://www.ibm.com/architectures/papers/rag-cookbook/chunking) y cómo utilizarlos.
-* Crear una aplicación [RAG](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) multimodal, transparente y verificable.
+* ✅ Convertir documentos complejos a distintos formatos adecuados para IA
+* ✅ Comprender los distintos métodos de [Chunking](https://www.ibm.com/architectures/papers/rag-cookbook/chunking) y cómo utilizarlos
+* ✅ Crear una aplicación [RAG](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) multimodal, transparente y verificable
 
 ![docling-banner](images/docling-banner.png)
 
@@ -27,12 +36,15 @@ A continuación tienes enlaces útiles: -->
 
 ## Agenda
 
-|  |  |
-| :--- | :--- |
-| [Preparación](pre-work/README.md)  | Instrucciones de como preparar tu entorno para los labs |
-| [Lab 1: Conversión de documentos con Docling](lab-1/README.md) | Aprende a usar Docling para convertir documentos complejos |
-| [Lab 2: Chunking y vectorización con Docling](lab-2/README.md)| Descubre las estrategias de chunking avanzado con Docling |
-| [Lab 3: RAG multimodal con Docling](lab-3/README.md) | Construcción de un sistema RAG multimodal verificable |
+| Lab | Contenido | Duración estimada |
+| :--- | :--- | :---: |
+| [**Lab 0: Preparación**](pre-work/README.md) | Instrucciones de cómo preparar tu entorno para los labs | 15 min |
+| [**Lab 1: Conversión de documentos**](lab-1/README.md) | Aprende a usar Docling para convertir documentos complejos | 30 min |
+| [**Lab 2: Chunking y vectorización**](lab-2/README.md) | Descubre las estrategias de chunking avanzado con Docling | 30 min |
+| [**Lab 3: RAG multimodal**](lab-3/README.md) | Construcción de un sistema RAG multimodal verificable | 45 min |
+
+!!! tip "Recomendación"
+    Si es tu primera vez con Docling, te recomendamos seguir los labs en orden. Cada lab construye sobre los conceptos del anterior.
 
 ## Tecnología utilizada
 

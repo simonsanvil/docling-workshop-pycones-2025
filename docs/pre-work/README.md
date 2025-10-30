@@ -6,17 +6,47 @@ logo: images/DoclingDuck.png
 
 # Preparación
 
-Los laboratorios de la workshop son [notebooks de Jupyter](https://jupyter.org/). Los notebooks pueden ejecutarse:
- <!-- en tu ordenador o de forma remota en el servicio [Google Colab](https://colab.research.google.com). 
+## 🎯 Objetivo
 
-## Ejecución de notebooks -->
+Preparar tu entorno de trabajo para ejecutar los notebooks del workshop de Docling.
 
-<!-- Los notebooks pueden ejecutarse: -->
+## 📝 Opciones de ejecución
 
-- [Localmente en tu equipo](#ejecucion-de-notebooks-localmente) (para el cual necesitarás instalar algunas dependencias) O
-- [De forma remota en Google Colab](#ejecucion-de-notebooks-de-forma-remota-colab)
+Los laboratorios de la workshop son [notebooks de Jupyter](https://jupyter.org/). Puedes ejecutarlos de dos formas:
 
-Sigue las instrucciones en una de las siguientes secciones según cómo prefieras ejecutarlos.
+=== "🌐 Google Colab (Recomendado para principiantes)"
+
+    **Ventajas:**
+    
+    - ✅ No requiere instalación local
+    - ✅ GPU gratuita disponible
+    - ✅ Funciona en cualquier dispositivo con navegador
+    - ✅ Ideal si tienes RAM limitada
+
+    **Requisitos:**
+    
+    - Una cuenta de Google
+    - Navegador web moderno
+    
+    **[Ver instrucciones de Colab ↓](#ejecucion-de-notebooks-de-forma-remota-colab)**
+
+=== "💻 Ejecución Local (Recomendado si tienes experiencia)"
+
+    **Ventajas:**
+    
+    - ✅ Más rápido (sin depender de internet)
+    - ✅ Mayor control sobre el entorno
+    - ✅ Puedes guardar cambios fácilmente
+    - ✅ Mejor para desarrollo posterior
+
+    **Requisitos:**
+    
+    - 8 GB RAM mínimo (16 GB recomendado)
+    - Python 3.10, 3.11 o 3.12
+    - Git instalado
+    - (Opcional) IDE como VS Code o PyCharm
+    
+    **[Ver instrucciones locales ↓](#ejecucion-de-notebooks-localmente)**
 
 ## Ejecución de notebooks localmente
 
@@ -24,7 +54,7 @@ Si quieres ejecutar los notebooks de los laboratorios localmente en tu ordenador
 
 - Un ordenador o portátil: mínimo 8 GB de RAM (16 GB recomendado)
 - Conocimientos de [Git](https://git-scm.com/) y [Python](https://www.python.org/): Lo suficiente para instalar dependencias y ejecutar Jupyter Notebooks
-- (Opcional) Un IDE como [VS Code](https://code.visualstudio.com/) o [PyCharm](https://www.jetbrains.com/pycharm/) para editar y ejecutar los notebooks comodamente.
+- (Opcional) Un IDE como [VS Code](https://code.visualstudio.com/) o [PyCharm](https://www.jetbrains.com/pycharm/) para editar y ejecutar los notebooks cómodamente.
 
 Si alguna de estas no es el caso, te recomendamos ir a la sección [Ejecución de notebooks de forma remota (Colab)](#ejecucion-de-notebooks-de-forma-remota-colab).
 
@@ -84,7 +114,7 @@ cd docling-workshop-pycones-2025
 
 ### Uso de los modelos de Granite con Replicate
 
-En el laboratorio 3 utilizaras modelos de IA generativa [Granite](https://www.ibm.com/granite) para construir un sistema RAG multimodal. Para ello usaremos [Replicate](https://replicate.com/), una plataforma en la nube que aloja y sirve modelos de IA por ti.
+En el laboratorio 3 utilizarás modelos de IA generativa [Granite](https://www.ibm.com/granite) para construir un sistema RAG multimodal. Para ello usaremos [Replicate](https://replicate.com/), una plataforma en la nube que aloja y sirve modelos de IA por ti.
 
 #### Instrucciones para configurar Replicate
 
@@ -116,7 +146,7 @@ Para ejecutar los notebooks de los laboratorios de forma remota usando [Google C
 
 ### Servir los modelos de Granite con Replicate
 
-En el laboratorio 3 utilizaras modelos de IA generativa [Granite](https://www.ibm.com/granite) para construir un sistema RAG multimodal. Para ello usaremos [Replicate](https://replicate.com/), una plataforma en la nube que aloja y sirve modelos de IA por ti.
+En el laboratorio 3 utilizarás modelos de IA generativa [Granite](https://www.ibm.com/granite) para construir un sistema RAG multimodal. Para ello usaremos [Replicate](https://replicate.com/), una plataforma en la nube que aloja y sirve modelos de IA por ti.
 
 #### Instrucciones para configurar Replicate
 
@@ -127,3 +157,89 @@ En el laboratorio 3 utilizaras modelos de IA generativa [Granite](https://www.ib
 3. Crea un [API token](https://replicate.com/account/api-tokens) de Replicate.
 
 4. Añade tu token de API de Replicate al gestor de secretos de Colab para guardarlo de forma segura. Abre [Google Colab](https://colab.research.google.com) y haz clic en la pestaña `🔑 Secrets` del panel izquierdo. Pulsa "New Secret" e introduce `REPLICATE_API_TOKEN` como clave; pega tu token en el campo de valor. Activa el botón de la izquierda para permitir que el notebook acceda al secreto.
+
+## Resolución de problemas
+
+### Problemas comunes en la instalación local
+
+#### Error: "Python version not supported"
+
+**Solución**: Asegúrate de tener Python 3.10, 3.11 o 3.12 instalado. Verifica tu versión con:
+
+```shell
+python3 --version
+```
+
+Si tienes una versión incompatible, descarga e instala una versión compatible desde [python.org](https://www.python.org/downloads/).
+
+#### Error: "command not found: uv"
+
+**Solución**: Instala `uv` con pip:
+
+```shell
+pip install uv
+# o con pip3
+pip3 install uv
+```
+
+#### Error: "No module named 'jupyter'"
+
+**Solución**: Asegúrate de haber activado el entorno virtual y de haber instalado Jupyter:
+
+```shell
+source venv/bin/activate
+python3 -m pip install --require-virtualenv notebook ipywidgets
+```
+
+#### Problemas de memoria al ejecutar notebooks localmente
+
+**Solución**: Los modelos de visión y transformers pueden consumir mucha memoria. Si experimentas problemas:
+
+1. Cierra otras aplicaciones para liberar RAM
+2. Considera usar Google Colab en su lugar
+3. Si usas Colab, cambia el runtime a GPU: `Runtime > Change runtime type > GPU`
+
+#### Error: "REPLICATE_API_TOKEN not found"
+
+**Solución Local**: Asegúrate de haber exportado la variable de entorno en la terminal donde ejecutas Jupyter:
+
+```shell
+export REPLICATE_API_TOKEN=tu_token_aqui
+jupyter notebook
+```
+
+**Solución Colab**: Verifica que hayas añadido el secreto en Colab y que el interruptor esté activado para permitir que el notebook acceda a él.
+
+### Problemas comunes en Google Colab
+
+#### Los notebooks se ejecutan muy lentamente
+
+**Solución**: Cambia el tipo de runtime a GPU o TPU:
+1. Ve a `Runtime > Change runtime type`
+2. Selecciona `T4 GPU` o `TPU v2`
+3. Haz clic en "Save"
+
+#### Error: "Cuota de uso excedida en Replicate"
+
+**Solución**: 
+1. Verifica tu saldo en [Replicate Dashboard](https://replicate.com/account)
+2. Si usaste el enlace de créditos gratuitos pero se agotaron, considera añadir saldo
+3. Reduce el número de ejecuciones o usa modelos más pequeños
+
+#### No puedo guardar cambios en el notebook en Colab
+
+**Solución**: 
+- Haz una copia del notebook: `File > Save a copy in Drive`
+- Los notebooks abiertos desde GitHub son de solo lectura hasta que hagas una copia
+
+### Obtener más ayuda
+
+Si sigues experimentando problemas:
+
+1. Revisa los [Issues existentes](https://github.com/simonsanvil/docling-workshop-pycones-2025/issues) en GitHub
+2. Abre un [nuevo Issue](https://github.com/simonsanvil/docling-workshop-pycones-2025/issues/new) con:
+   - Descripción del problema
+   - Pasos que seguiste
+   - Mensajes de error completos
+   - Tu sistema operativo y versión de Python
+3. Únete a las [Discusiones](https://github.com/simonsanvil/docling-workshop-pycones-2025/discussions) para preguntas generales

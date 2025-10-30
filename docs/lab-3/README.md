@@ -4,11 +4,45 @@ description: RAG multimodal con Docling
 logo: images/DoclingDuck.png
 ---
 
-# RAG multimodal con Docling
+# Lab 3: RAG multimodal con Docling
 
-[Retrieval Augmented Generation (RAG)](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) es un patrón de aplicaciones de IA que puede utilizarse para mejorar el rendimiento de los modelos de lenguaje recuperando información factual de una base de conocimiento y añadiéndola a la consulta del modelo.
+## 🎯 Objetivo
 
-En este laboratorio combinaremos las habilidades aprendidas en los dos laboratorios anteriores para construir un sistema RAG potenciado con Docling.
+En este laboratorio combinarás todo lo aprendido para construir un sistema RAG (Retrieval Augmented Generation) completo y multimodal, potenciado con Docling.
+
+## 📚 Lo que aprenderás
+
+- Qué es RAG y cómo funciona
+- Construir una base de conocimiento desde documentos
+- Implementar búsqueda semántica con vectores
+- Integrar modelos de lenguaje para generación
+- Procesar y consultar contenido multimodal (texto + imágenes)
+- Crear un sistema RAG verificable y transparente
+- Usar modelos Granite a través de Replicate
+
+## 🔄 ¿Qué es RAG?
+
+[Retrieval Augmented Generation (RAG)](https://research.ibm.com/blog/retrieval-augmented-generation-RAG) es un patrón de aplicaciones de IA que mejora el rendimiento de los modelos de lenguaje al:
+
+1. 🔍 **Recuperar**: Buscar información relevante en una base de conocimiento
+2. 🔗 **Aumentar**: Añadir esa información al contexto del modelo
+3. 💬 **Generar**: Producir respuestas basadas en información factual
+
+### Beneficios de RAG
+
+- ✅ **Respuestas más precisas**: Basadas en datos reales, no en memorización
+- ✅ **Actualizable**: Añade nuevos documentos sin reentrenar el modelo
+- ✅ **Verificable**: Puedes rastrear de dónde viene cada respuesta
+- ✅ **Específico al dominio**: Usa tu propia base de conocimiento
+
+### RAG Multimodal con Docling
+
+Docling hace que RAG sea más potente al:
+
+- 📄 Extraer texto estructurado de documentos complejos
+- 🖼️ Procesar y entender imágenes en documentos
+- 📊 Preservar tablas y gráficos con su contexto
+- 🔗 Mantener relaciones entre elementos del documento
 
 ## Prerrequisitos
 
